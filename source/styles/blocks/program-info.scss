@@ -1,0 +1,19 @@
+.program-info {
+  background-color: #F2F2F2;
+}
+
+.program-info__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  line-height: 37px;
+  font-weight: 400;
+  color: $dark-text-color;
+  text-transform: uppercase;
+}
+
+.program-info__link {
+  @include style-btn-link;
+  font-size: 16px;
+  line-height: 16px;
+  color: $dark-text-color;
+}

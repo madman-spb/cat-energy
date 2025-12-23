@@ -1,0 +1,21 @@
+.table-indicators__parameter-value {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  color: $dark-text-color;
+}
+
+.table-indicators__parameter-name {
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 400;
+}
+
+.table-indicators__parameter-value--black-uppercase,
+.table-indicators__parameter-name--black-uppercase {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: $dark-text-color;
+  text-transform: uppercase;
+}

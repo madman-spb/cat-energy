@@ -1,0 +1,7 @@
+.social {
+  font-style: normal;
+}
+
+.social__list {
+  @include list;
+}

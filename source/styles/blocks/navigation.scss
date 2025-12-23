@@ -1,0 +1,12 @@
+
+
+.navigation__list {
+  @include list;
+}
+
+.navigation__link {
+  @include style-btn-link;
+  font-size: 20px;
+  line-height: 20px;
+  color: $dark-text-color;
+}
